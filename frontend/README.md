@@ -401,7 +401,21 @@ function MyComponent() {
 ```
 
 ---
+## Available Commands
 
+All commands must be run from the `frontend/` directory.
+
+| Command | Description |
+|---|---|
+| `npm run dev` | Start the Vite development server |
+| `npm run build` | Compile TypeScript and build for production |
+| `npm run preview` | Preview the production build locally (port 8080) |
+| `npm run typecheck` | Run TypeScript type checking without emitting files |
+| `npm run test` | Run unit tests with Vitest |
+| `npm run quality` | Run the quality gate checks |
+| `npm run e2e` | Run end-to-end tests with Playwright |
+
+---
 ## 🧪 Testing
 
 ### Manual Testing Checklist
